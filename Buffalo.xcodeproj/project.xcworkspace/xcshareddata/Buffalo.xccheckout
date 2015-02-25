@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>71A153E4-2F02-4AC7-B1F9-E71174511541</string>
+	<string>94AFA2DD-49AD-4C23-AC14-8E2B0DC52616</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Buffalo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/Think-Slate/Buffalo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Buffalo/Buffalo.xcodeproj</string>
+	<string>Buffalo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E4B0AED56F0315CF533F229D30A3F2DDC64B4927</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Think-Slate/Buffalo.git</string>

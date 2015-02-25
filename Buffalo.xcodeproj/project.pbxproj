@@ -7,48 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0A07C431A86800C0097D5B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A07C421A86800C0097D5B6 /* AppDelegate.swift */; };
-		A0A07C451A86800C0097D5B6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A07C441A86800C0097D5B6 /* FirstViewController.swift */; };
-		A0A07C471A86800C0097D5B6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A07C461A86800C0097D5B6 /* SecondViewController.swift */; };
-		A0A07C4A1A86800C0097D5B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A07C481A86800C0097D5B6 /* Main.storyboard */; };
-		A0A07C4C1A86800C0097D5B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A07C4B1A86800C0097D5B6 /* Images.xcassets */; };
-		A0A07C4F1A86800C0097D5B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0A07C4D1A86800C0097D5B6 /* LaunchScreen.xib */; };
-		A0A07C5B1A86800D0097D5B6 /* BuffaloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A07C5A1A86800D0097D5B6 /* BuffaloTests.swift */; };
+		A05AFCEA1A86815D00CB983A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AFCE91A86815D00CB983A /* AppDelegate.swift */; };
+		A05AFCEC1A86815D00CB983A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AFCEB1A86815D00CB983A /* FirstViewController.swift */; };
+		A05AFCEE1A86815D00CB983A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AFCED1A86815D00CB983A /* SecondViewController.swift */; };
+		A05AFCF11A86815D00CB983A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05AFCEF1A86815D00CB983A /* Main.storyboard */; };
+		A05AFCF31A86815D00CB983A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05AFCF21A86815D00CB983A /* Images.xcassets */; };
+		A05AFCF61A86815D00CB983A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05AFCF41A86815D00CB983A /* LaunchScreen.xib */; };
+		A05AFD021A86815D00CB983A /* BuffaloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AFD011A86815D00CB983A /* BuffaloTests.swift */; };
+		A05AFD0C1A86823B00CB983A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AFD0B1A86823B00CB983A /* ThirdViewController.swift */; };
+		A05AFD0E1A8684D800CB983A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AFD0D1A8684D800CB983A /* RegisterViewController.swift */; };
+		A087476C1A97B4F200B9DC29 /* information.swift in Sources */ = {isa = PBXBuildFile; fileRef = A087476B1A97B4F200B9DC29 /* information.swift */; };
+		A087477F1A9D9E3200B9DC29 /* buffaloModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A087477D1A9D9E3200B9DC29 /* buffaloModel.xcdatamodeld */; };
+		A08747801A9D9EC000B9DC29 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08747781A9D9AA500B9DC29 /* CoreData.framework */; };
+		A0DAB72A1A86C91B00A2E08B /* infoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DAB7291A86C91B00A2E08B /* infoObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A0A07C551A86800D0097D5B6 /* PBXContainerItemProxy */ = {
+		A05AFCFC1A86815D00CB983A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A0A07C351A86800C0097D5B6 /* Project object */;
+			containerPortal = A05AFCDC1A86815D00CB983A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0A07C3C1A86800C0097D5B6;
+			remoteGlobalIDString = A05AFCE31A86815D00CB983A;
 			remoteInfo = Buffalo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A0A07C3D1A86800C0097D5B6 /* Buffalo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buffalo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0A07C411A86800C0097D5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0A07C421A86800C0097D5B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0A07C441A86800C0097D5B6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A0A07C461A86800C0097D5B6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		A0A07C491A86800C0097D5B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0A07C4B1A86800C0097D5B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A0A07C4E1A86800C0097D5B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A0A07C541A86800D0097D5B6 /* BuffaloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuffaloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0A07C591A86800D0097D5B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0A07C5A1A86800D0097D5B6 /* BuffaloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuffaloTests.swift; sourceTree = "<group>"; };
+		A05AFCE41A86815D00CB983A /* Buffalo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buffalo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05AFCE81A86815D00CB983A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05AFCE91A86815D00CB983A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A05AFCEB1A86815D00CB983A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A05AFCED1A86815D00CB983A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A05AFCF01A86815D00CB983A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A05AFCF21A86815D00CB983A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A05AFCF51A86815D00CB983A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A05AFCFB1A86815D00CB983A /* BuffaloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuffaloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05AFD001A86815D00CB983A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05AFD011A86815D00CB983A /* BuffaloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuffaloTests.swift; sourceTree = "<group>"; };
+		A05AFD0B1A86823B00CB983A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		A05AFD0D1A8684D800CB983A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A087476B1A97B4F200B9DC29 /* information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = information.swift; sourceTree = "<group>"; };
+		A087476D1A9D957400B9DC29 /* Buffalo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Buffalo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A08747781A9D9AA500B9DC29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A087477E1A9D9E3200B9DC29 /* buffaloModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = buffaloModel.xcdatamodel; sourceTree = "<group>"; };
+		A0DAB7291A86C91B00A2E08B /* infoObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A0A07C3A1A86800C0097D5B6 /* Frameworks */ = {
+		A05AFCE11A86815D00CB983A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08747801A9D9EC000B9DC29 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0A07C511A86800D0097D5B6 /* Frameworks */ = {
+		A05AFCF81A86815D00CB983A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,59 +72,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A0A07C341A86800C0097D5B6 = {
+		A05AFCDB1A86815D00CB983A = {
 			isa = PBXGroup;
 			children = (
-				A0A07C3F1A86800C0097D5B6 /* Buffalo */,
-				A0A07C571A86800D0097D5B6 /* BuffaloTests */,
-				A0A07C3E1A86800C0097D5B6 /* Products */,
+				A08747781A9D9AA500B9DC29 /* CoreData.framework */,
+				A05AFCE61A86815D00CB983A /* Buffalo */,
+				A05AFCFE1A86815D00CB983A /* BuffaloTests */,
+				A05AFCE51A86815D00CB983A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A0A07C3E1A86800C0097D5B6 /* Products */ = {
+		A05AFCE51A86815D00CB983A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0A07C3D1A86800C0097D5B6 /* Buffalo.app */,
-				A0A07C541A86800D0097D5B6 /* BuffaloTests.xctest */,
+				A05AFCE41A86815D00CB983A /* Buffalo.app */,
+				A05AFCFB1A86815D00CB983A /* BuffaloTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0A07C3F1A86800C0097D5B6 /* Buffalo */ = {
+		A05AFCE61A86815D00CB983A /* Buffalo */ = {
 			isa = PBXGroup;
 			children = (
-				A0A07C421A86800C0097D5B6 /* AppDelegate.swift */,
-				A0A07C441A86800C0097D5B6 /* FirstViewController.swift */,
-				A0A07C461A86800C0097D5B6 /* SecondViewController.swift */,
-				A0A07C481A86800C0097D5B6 /* Main.storyboard */,
-				A0A07C4B1A86800C0097D5B6 /* Images.xcassets */,
-				A0A07C4D1A86800C0097D5B6 /* LaunchScreen.xib */,
-				A0A07C401A86800C0097D5B6 /* Supporting Files */,
+				A05AFCE91A86815D00CB983A /* AppDelegate.swift */,
+				A05AFD0D1A8684D800CB983A /* RegisterViewController.swift */,
+				A05AFCEB1A86815D00CB983A /* FirstViewController.swift */,
+				A05AFCED1A86815D00CB983A /* SecondViewController.swift */,
+				A05AFD0B1A86823B00CB983A /* ThirdViewController.swift */,
+				A05AFCEF1A86815D00CB983A /* Main.storyboard */,
+				A087476B1A97B4F200B9DC29 /* information.swift */,
+				A0DAB7291A86C91B00A2E08B /* infoObject.swift */,
+				A05AFCF21A86815D00CB983A /* Images.xcassets */,
+				A05AFCF41A86815D00CB983A /* LaunchScreen.xib */,
+				A05AFCE71A86815D00CB983A /* Supporting Files */,
+				A087476D1A9D957400B9DC29 /* Buffalo-Bridging-Header.h */,
+				A087477D1A9D9E3200B9DC29 /* buffaloModel.xcdatamodeld */,
 			);
 			path = Buffalo;
 			sourceTree = "<group>";
 		};
-		A0A07C401A86800C0097D5B6 /* Supporting Files */ = {
+		A05AFCE71A86815D00CB983A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A0A07C411A86800C0097D5B6 /* Info.plist */,
+				A05AFCE81A86815D00CB983A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A0A07C571A86800D0097D5B6 /* BuffaloTests */ = {
+		A05AFCFE1A86815D00CB983A /* BuffaloTests */ = {
 			isa = PBXGroup;
 			children = (
-				A0A07C5A1A86800D0097D5B6 /* BuffaloTests.swift */,
-				A0A07C581A86800D0097D5B6 /* Supporting Files */,
+				A05AFD011A86815D00CB983A /* BuffaloTests.swift */,
+				A05AFCFF1A86815D00CB983A /* Supporting Files */,
 			);
 			path = BuffaloTests;
 			sourceTree = "<group>";
 		};
-		A0A07C581A86800D0097D5B6 /* Supporting Files */ = {
+		A05AFCFF1A86815D00CB983A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A0A07C591A86800D0097D5B6 /* Info.plist */,
+				A05AFD001A86815D00CB983A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,13 +139,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0A07C3C1A86800C0097D5B6 /* Buffalo */ = {
+		A05AFCE31A86815D00CB983A /* Buffalo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0A07C5E1A86800D0097D5B6 /* Build configuration list for PBXNativeTarget "Buffalo" */;
+			buildConfigurationList = A05AFD051A86815D00CB983A /* Build configuration list for PBXNativeTarget "Buffalo" */;
 			buildPhases = (
-				A0A07C391A86800C0097D5B6 /* Sources */,
-				A0A07C3A1A86800C0097D5B6 /* Frameworks */,
-				A0A07C3B1A86800C0097D5B6 /* Resources */,
+				A05AFCE01A86815D00CB983A /* Sources */,
+				A05AFCE11A86815D00CB983A /* Frameworks */,
+				A05AFCE21A86815D00CB983A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +153,46 @@
 			);
 			name = Buffalo;
 			productName = Buffalo;
-			productReference = A0A07C3D1A86800C0097D5B6 /* Buffalo.app */;
+			productReference = A05AFCE41A86815D00CB983A /* Buffalo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A0A07C531A86800D0097D5B6 /* BuffaloTests */ = {
+		A05AFCFA1A86815D00CB983A /* BuffaloTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0A07C611A86800D0097D5B6 /* Build configuration list for PBXNativeTarget "BuffaloTests" */;
+			buildConfigurationList = A05AFD081A86815D00CB983A /* Build configuration list for PBXNativeTarget "BuffaloTests" */;
 			buildPhases = (
-				A0A07C501A86800D0097D5B6 /* Sources */,
-				A0A07C511A86800D0097D5B6 /* Frameworks */,
-				A0A07C521A86800D0097D5B6 /* Resources */,
+				A05AFCF71A86815D00CB983A /* Sources */,
+				A05AFCF81A86815D00CB983A /* Frameworks */,
+				A05AFCF91A86815D00CB983A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A0A07C561A86800D0097D5B6 /* PBXTargetDependency */,
+				A05AFCFD1A86815D00CB983A /* PBXTargetDependency */,
 			);
 			name = BuffaloTests;
 			productName = BuffaloTests;
-			productReference = A0A07C541A86800D0097D5B6 /* BuffaloTests.xctest */;
+			productReference = A05AFCFB1A86815D00CB983A /* BuffaloTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A0A07C351A86800C0097D5B6 /* Project object */ = {
+		A05AFCDC1A86815D00CB983A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Victor Vainberg";
 				TargetAttributes = {
-					A0A07C3C1A86800C0097D5B6 = {
+					A05AFCE31A86815D00CB983A = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					A0A07C531A86800D0097D5B6 = {
+					A05AFCFA1A86815D00CB983A = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = A0A07C3C1A86800C0097D5B6;
+						TestTargetID = A05AFCE31A86815D00CB983A;
 					};
 				};
 			};
-			buildConfigurationList = A0A07C381A86800C0097D5B6 /* Build configuration list for PBXProject "Buffalo" */;
+			buildConfigurationList = A05AFCDF1A86815D00CB983A /* Build configuration list for PBXProject "Buffalo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +200,29 @@
 				en,
 				Base,
 			);
-			mainGroup = A0A07C341A86800C0097D5B6;
-			productRefGroup = A0A07C3E1A86800C0097D5B6 /* Products */;
+			mainGroup = A05AFCDB1A86815D00CB983A;
+			productRefGroup = A05AFCE51A86815D00CB983A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0A07C3C1A86800C0097D5B6 /* Buffalo */,
-				A0A07C531A86800D0097D5B6 /* BuffaloTests */,
+				A05AFCE31A86815D00CB983A /* Buffalo */,
+				A05AFCFA1A86815D00CB983A /* BuffaloTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A0A07C3B1A86800C0097D5B6 /* Resources */ = {
+		A05AFCE21A86815D00CB983A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A07C4A1A86800C0097D5B6 /* Main.storyboard in Resources */,
-				A0A07C4F1A86800C0097D5B6 /* LaunchScreen.xib in Resources */,
-				A0A07C4C1A86800C0097D5B6 /* Images.xcassets in Resources */,
+				A05AFCF11A86815D00CB983A /* Main.storyboard in Resources */,
+				A05AFCF61A86815D00CB983A /* LaunchScreen.xib in Resources */,
+				A05AFCF31A86815D00CB983A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0A07C521A86800D0097D5B6 /* Resources */ = {
+		A05AFCF91A86815D00CB983A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +232,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A0A07C391A86800C0097D5B6 /* Sources */ = {
+		A05AFCE01A86815D00CB983A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A07C471A86800C0097D5B6 /* SecondViewController.swift in Sources */,
-				A0A07C431A86800C0097D5B6 /* AppDelegate.swift in Sources */,
-				A0A07C451A86800C0097D5B6 /* FirstViewController.swift in Sources */,
+				A05AFCEE1A86815D00CB983A /* SecondViewController.swift in Sources */,
+				A087477F1A9D9E3200B9DC29 /* buffaloModel.xcdatamodeld in Sources */,
+				A05AFD0E1A8684D800CB983A /* RegisterViewController.swift in Sources */,
+				A0DAB72A1A86C91B00A2E08B /* infoObject.swift in Sources */,
+				A087476C1A97B4F200B9DC29 /* information.swift in Sources */,
+				A05AFCEA1A86815D00CB983A /* AppDelegate.swift in Sources */,
+				A05AFD0C1A86823B00CB983A /* ThirdViewController.swift in Sources */,
+				A05AFCEC1A86815D00CB983A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0A07C501A86800D0097D5B6 /* Sources */ = {
+		A05AFCF71A86815D00CB983A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A07C5B1A86800D0097D5B6 /* BuffaloTests.swift in Sources */,
+				A05AFD021A86815D00CB983A /* BuffaloTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A0A07C561A86800D0097D5B6 /* PBXTargetDependency */ = {
+		A05AFCFD1A86815D00CB983A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A0A07C3C1A86800C0097D5B6 /* Buffalo */;
-			targetProxy = A0A07C551A86800D0097D5B6 /* PBXContainerItemProxy */;
+			target = A05AFCE31A86815D00CB983A /* Buffalo */;
+			targetProxy = A05AFCFC1A86815D00CB983A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A0A07C481A86800C0097D5B6 /* Main.storyboard */ = {
+		A05AFCEF1A86815D00CB983A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A0A07C491A86800C0097D5B6 /* Base */,
+				A05AFCF01A86815D00CB983A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A0A07C4D1A86800C0097D5B6 /* LaunchScreen.xib */ = {
+		A05AFCF41A86815D00CB983A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A0A07C4E1A86800C0097D5B6 /* Base */,
+				A05AFCF51A86815D00CB983A /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +285,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A0A07C5C1A86800D0097D5B6 /* Debug */ = {
+		A05AFD031A86815D00CB983A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,7 +328,7 @@
 			};
 			name = Debug;
 		};
-		A0A07C5D1A86800D0097D5B6 /* Release */ = {
+		A05AFD041A86815D00CB983A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,27 +364,32 @@
 			};
 			name = Release;
 		};
-		A0A07C5F1A86800D0097D5B6 /* Debug */ = {
+		A05AFD061A86815D00CB983A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Buffalo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Buffalo/Buffalo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A0A07C601A86800D0097D5B6 /* Release */ = {
+		A05AFD071A86815D00CB983A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Buffalo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Buffalo/Buffalo-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		A0A07C621A86800D0097D5B6 /* Debug */ = {
+		A05AFD091A86815D00CB983A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,7 +408,7 @@
 			};
 			name = Debug;
 		};
-		A0A07C631A86800D0097D5B6 /* Release */ = {
+		A05AFD0A1A86815D00CB983A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,32 +426,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0A07C381A86800C0097D5B6 /* Build configuration list for PBXProject "Buffalo" */ = {
+		A05AFCDF1A86815D00CB983A /* Build configuration list for PBXProject "Buffalo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0A07C5C1A86800D0097D5B6 /* Debug */,
-				A0A07C5D1A86800D0097D5B6 /* Release */,
+				A05AFD031A86815D00CB983A /* Debug */,
+				A05AFD041A86815D00CB983A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0A07C5E1A86800D0097D5B6 /* Build configuration list for PBXNativeTarget "Buffalo" */ = {
+		A05AFD051A86815D00CB983A /* Build configuration list for PBXNativeTarget "Buffalo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0A07C5F1A86800D0097D5B6 /* Debug */,
-				A0A07C601A86800D0097D5B6 /* Release */,
+				A05AFD061A86815D00CB983A /* Debug */,
+				A05AFD071A86815D00CB983A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A0A07C611A86800D0097D5B6 /* Build configuration list for PBXNativeTarget "BuffaloTests" */ = {
+		A05AFD081A86815D00CB983A /* Build configuration list for PBXNativeTarget "BuffaloTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0A07C621A86800D0097D5B6 /* Debug */,
-				A0A07C631A86800D0097D5B6 /* Release */,
+				A05AFD091A86815D00CB983A /* Debug */,
+				A05AFD0A1A86815D00CB983A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A087477D1A9D9E3200B9DC29 /* buffaloModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A087477E1A9D9E3200B9DC29 /* buffaloModel.xcdatamodel */,
+			);
+			currentVersion = A087477E1A9D9E3200B9DC29 /* buffaloModel.xcdatamodel */;
+			path = buffaloModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = A0A07C351A86800C0097D5B6 /* Project object */;
+	rootObject = A05AFCDC1A86815D00CB983A /* Project object */;
 }

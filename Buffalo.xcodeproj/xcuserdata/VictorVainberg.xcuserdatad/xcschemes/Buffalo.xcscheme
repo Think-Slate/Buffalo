@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0A07C3C1A86800C0097D5B6"
+               BlueprintIdentifier = "A05AFCE31A86815D00CB983A"
                BuildableName = "Buffalo.app"
                BlueprintName = "Buffalo"
                ReferencedContainer = "container:Buffalo.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0A07C531A86800D0097D5B6"
+               BlueprintIdentifier = "A05AFCFA1A86815D00CB983A"
                BuildableName = "BuffaloTests.xctest"
                BlueprintName = "BuffaloTests"
                ReferencedContainer = "container:Buffalo.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0A07C531A86800D0097D5B6"
+               BlueprintIdentifier = "A05AFCFA1A86815D00CB983A"
                BuildableName = "BuffaloTests.xctest"
                BlueprintName = "BuffaloTests"
                ReferencedContainer = "container:Buffalo.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0A07C3C1A86800C0097D5B6"
+            BlueprintIdentifier = "A05AFCE31A86815D00CB983A"
             BuildableName = "Buffalo.app"
             BlueprintName = "Buffalo"
             ReferencedContainer = "container:Buffalo.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0A07C3C1A86800C0097D5B6"
+            BlueprintIdentifier = "A05AFCE31A86815D00CB983A"
             BuildableName = "Buffalo.app"
             BlueprintName = "Buffalo"
             ReferencedContainer = "container:Buffalo.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0A07C3C1A86800C0097D5B6"
+            BlueprintIdentifier = "A05AFCE31A86815D00CB983A"
             BuildableName = "Buffalo.app"
             BlueprintName = "Buffalo"
             ReferencedContainer = "container:Buffalo.xcodeproj">
