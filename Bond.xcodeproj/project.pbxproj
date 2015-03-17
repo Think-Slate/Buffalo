@@ -20,6 +20,7 @@
 		A0B20C9C1A9EAEE900F484EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B20C981A9EAEE900F484EB /* SecondViewController.swift */; };
 		A0B20C9D1A9EAEE900F484EB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B20C991A9EAEE900F484EB /* ThirdViewController.swift */; };
 		A0B20C9F1A9EAF9E00F484EB /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B20C9E1A9EAF9E00F484EB /* Contact.swift */; };
+		A0B91F3B1AB79AE9000CD5A8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B91F3A1AB79AE9000CD5A8 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,10 @@
 		A0B20C981A9EAEE900F484EB /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A0B20C991A9EAEE900F484EB /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		A0B20C9E1A9EAF9E00F484EB /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		A0B91F371AB79A7D000CD5A8 /* BLE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		A0B91F381AB79A7D000CD5A8 /* BLE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		A0B91F391AB79A7D000CD5A8 /* BLEDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		A0B91F3A1AB79AE9000CD5A8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B91F3B1AB79AE9000CD5A8 /* CoreBluetooth.framework in Frameworks */,
 				A0B20C931A9EA9FC00F484EB /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +80,8 @@
 		A088AA461A9EA50900998FB7 = {
 			isa = PBXGroup;
 			children = (
+				A0B91F3A1AB79AE9000CD5A8 /* CoreBluetooth.framework */,
+				A0B91F361AB79A7D000CD5A8 /* BLE_Framework */,
 				A0B20C921A9EA9FC00F484EB /* CoreData.framework */,
 				A088AA511A9EA50900998FB7 /* Bond */,
 				A088AA6A1A9EA50900998FB7 /* BondTests */,
@@ -132,6 +140,16 @@
 				A088AA6C1A9EA50A00998FB7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0B91F361AB79A7D000CD5A8 /* BLE_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A0B91F371AB79A7D000CD5A8 /* BLE.h */,
+				A0B91F381AB79A7D000CD5A8 /* BLE.m */,
+				A0B91F391AB79A7D000CD5A8 /* BLEDefines.h */,
+			);
+			path = BLE_Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
