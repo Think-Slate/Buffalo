@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7IC-la-GiL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7IC-la-GiL">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--My Info-->
@@ -89,7 +89,7 @@
         <!--My Contacts-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController title="My Contacts" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Buffalo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="My Contacts" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Bond" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -165,10 +165,26 @@
             </objects>
             <point key="canvasLocation" x="-1521" y="-90"/>
         </scene>
+        <!--Swift Ble Controller-->
+        <scene sceneID="IVh-oK-lDq">
+            <objects>
+                <viewController id="NxE-eu-pV8" customClass="swiftBleController" customModule="Bond" customModuleProvider="target" sceneMemberID="viewController">
+                    <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IBZ-py-c5m">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" title="Connect">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H1s-kU-c97" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-451" y="-852"/>
+        </scene>
         <!--RegisterViewController-->
         <scene sceneID="khd-ea-67Q">
             <objects>
-                <viewController title="RegisterViewController" id="Zfz-dL-wl7" customClass="RegisterViewController" customModule="Buffalo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="RegisterViewController" id="Zfz-dL-wl7" customClass="RegisterViewController" customModule="Bond" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W1v-DC-mdG"/>
                         <viewControllerLayoutGuide type="bottom" id="yhK-Tc-njG"/>
@@ -182,9 +198,6 @@
                                 <state key="normal" title="Get Started">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="letsGoBut:" destination="Zfz-dL-wl7" eventType="touchUpInside" id="4w5-fF-uQX"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999964" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="BOND" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2I-vr-4bX">
                                 <rect key="frame" x="275" y="191" width="50" height="20.5"/>

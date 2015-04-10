@@ -12,7 +12,6 @@
 		A088AA5F1A9EA50900998FB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A088AA5E1A9EA50900998FB7 /* Images.xcassets */; };
 		A088AA621A9EA50900998FB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A088AA601A9EA50900998FB7 /* LaunchScreen.xib */; };
 		A088AA6E1A9EA50A00998FB7 /* BondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A088AA6D1A9EA50A00998FB7 /* BondTests.swift */; };
-		A088AA781A9EA52000998FB7 /* information.swift in Sources */ = {isa = PBXBuildFile; fileRef = A088AA771A9EA52000998FB7 /* information.swift */; };
 		A0B20C931A9EA9FC00F484EB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B20C921A9EA9FC00F484EB /* CoreData.framework */; };
 		A0B20C951A9EAEC600F484EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B20C941A9EAEC600F484EB /* Main.storyboard */; };
 		A0B20C9A1A9EAEE900F484EB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B20C961A9EAEE900F484EB /* RegisterViewController.swift */; };
@@ -21,6 +20,16 @@
 		A0B20C9D1A9EAEE900F484EB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B20C991A9EAEE900F484EB /* ThirdViewController.swift */; };
 		A0B20C9F1A9EAF9E00F484EB /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B20C9E1A9EAF9E00F484EB /* Contact.swift */; };
 		A0B91F3B1AB79AE9000CD5A8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B91F3A1AB79AE9000CD5A8 /* CoreBluetooth.framework */; };
+		A0CC2C5B1ACF0A460025D031 /* ViewControllerfirstBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CC2C5A1ACF0A460025D031 /* ViewControllerfirstBLE.m */; };
+		A0CC2C5E1ACF0B340025D031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CC2C5D1ACF0B340025D031 /* AppDelegate.m */; };
+		A0CC2C601ACF2B460025D031 /* swiftBleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC2C5F1ACF2B460025D031 /* swiftBleController.swift */; };
+		A0F9CEE01AD85E8F00799268 /* SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9CEDF1AD85E8F00799268 /* SwiftData.swift */; };
+		A0F9CEE21AD85E9C00799268 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9CEE11AD85E9C00799268 /* Util.swift */; };
+		A0F9CEE41AD85ED600799268 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9CEE31AD85ED600799268 /* ModelManager.swift */; };
+		A0F9CEE61AD85EDF00799268 /* accntsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F9CEE51AD85EDF00799268 /* accntsInfo.swift */; };
+		A0F9CEEB1AD85EF200799268 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9CEE71AD85EF200799268 /* FMDatabase.m */; };
+		A0F9CEEC1AD85EF200799268 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9CEE91AD85EF200799268 /* FMResultSet.m */; };
+		A0F9CEEF1AD85F0700799268 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9CEEE1AD85F0700799268 /* FMDatabaseAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +52,6 @@
 		A088AA671A9EA50900998FB7 /* BondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A088AA6C1A9EA50A00998FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A088AA6D1A9EA50A00998FB7 /* BondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondTests.swift; sourceTree = "<group>"; };
-		A088AA771A9EA52000998FB7 /* information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = information.swift; path = ../../Miscellanea/Buffalo/Buffalo/information.swift; sourceTree = "<group>"; };
 		A0B20C921A9EA9FC00F484EB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A0B20C941A9EAEC600F484EB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A0B20C961A9EAEE900F484EB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +63,22 @@
 		A0B91F381AB79A7D000CD5A8 /* BLE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
 		A0B91F391AB79A7D000CD5A8 /* BLEDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
 		A0B91F3A1AB79AE9000CD5A8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A0CC2C581ACF0A450025D031 /* Bond-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bond-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0CC2C591ACF0A460025D031 /* ViewControllerfirstBLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerfirstBLE.h; sourceTree = "<group>"; };
+		A0CC2C5A1ACF0A460025D031 /* ViewControllerfirstBLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerfirstBLE.m; sourceTree = "<group>"; };
+		A0CC2C5C1ACF0B340025D031 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0CC2C5D1ACF0B340025D031 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0CC2C5F1ACF2B460025D031 /* swiftBleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftBleController.swift; sourceTree = "<group>"; };
+		A0F9CEDF1AD85E8F00799268 /* SwiftData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftData.swift; sourceTree = "<group>"; };
+		A0F9CEE11AD85E9C00799268 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		A0F9CEE31AD85ED600799268 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		A0F9CEE51AD85EDF00799268 /* accntsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accntsInfo.swift; sourceTree = "<group>"; };
+		A0F9CEE71AD85EF200799268 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A0F9CEE81AD85EF200799268 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A0F9CEE91AD85EF200799268 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A0F9CEEA1AD85EF200799268 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A0F9CEED1AD85F0700799268 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A0F9CEEE1AD85F0700799268 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +125,18 @@
 		A088AA511A9EA50900998FB7 /* Bond */ = {
 			isa = PBXGroup;
 			children = (
-				A088AA771A9EA52000998FB7 /* information.swift */,
+				A0F9CEF01AD868C400799268 /* dbSupportFiles */,
+				A0CC2C5A1ACF0A460025D031 /* ViewControllerfirstBLE.m */,
+				A0CC2C591ACF0A460025D031 /* ViewControllerfirstBLE.h */,
+				A0F9CEE51AD85EDF00799268 /* accntsInfo.swift */,
+				A0F9CEE31AD85ED600799268 /* ModelManager.swift */,
+				A0F9CEE11AD85E9C00799268 /* Util.swift */,
+				A0F9CEDF1AD85E8F00799268 /* SwiftData.swift */,
+				A0CC2C5C1ACF0B340025D031 /* AppDelegate.h */,
+				A0CC2C5D1ACF0B340025D031 /* AppDelegate.m */,
 				A088AA541A9EA50900998FB7 /* AppDelegate.swift */,
 				A0B20C941A9EAEC600F484EB /* Main.storyboard */,
+				A0CC2C5F1ACF2B460025D031 /* swiftBleController.swift */,
 				A0B20C961A9EAEE900F484EB /* RegisterViewController.swift */,
 				A0B20C971A9EAEE900F484EB /* FirstViewController.swift */,
 				A0B20C981A9EAEE900F484EB /* SecondViewController.swift */,
@@ -113,6 +146,7 @@
 				A088AA561A9EA50900998FB7 /* Bond.xcdatamodeld */,
 				A0B20C9E1A9EAF9E00F484EB /* Contact.swift */,
 				A088AA521A9EA50900998FB7 /* Supporting Files */,
+				A0CC2C581ACF0A450025D031 /* Bond-Bridging-Header.h */,
 			);
 			path = Bond;
 			sourceTree = "<group>";
@@ -150,6 +184,19 @@
 				A0B91F391AB79A7D000CD5A8 /* BLEDefines.h */,
 			);
 			path = BLE_Framework;
+			sourceTree = "<group>";
+		};
+		A0F9CEF01AD868C400799268 /* dbSupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A0F9CEED1AD85F0700799268 /* FMDatabaseAdditions.h */,
+				A0F9CEEE1AD85F0700799268 /* FMDatabaseAdditions.m */,
+				A0F9CEE71AD85EF200799268 /* FMDatabase.m */,
+				A0F9CEE81AD85EF200799268 /* FMResultSet.h */,
+				A0F9CEE91AD85EF200799268 /* FMResultSet.m */,
+				A0F9CEEA1AD85EF200799268 /* FMDatabase.h */,
+			);
+			name = dbSupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,10 +301,19 @@
 			files = (
 				A0B20C9F1A9EAF9E00F484EB /* Contact.swift in Sources */,
 				A0B20C9A1A9EAEE900F484EB /* RegisterViewController.swift in Sources */,
+				A0CC2C5E1ACF0B340025D031 /* AppDelegate.m in Sources */,
+				A0F9CEEB1AD85EF200799268 /* FMDatabase.m in Sources */,
+				A0F9CEEF1AD85F0700799268 /* FMDatabaseAdditions.m in Sources */,
+				A0F9CEE61AD85EDF00799268 /* accntsInfo.swift in Sources */,
+				A0CC2C5B1ACF0A460025D031 /* ViewControllerfirstBLE.m in Sources */,
+				A0F9CEEC1AD85EF200799268 /* FMResultSet.m in Sources */,
 				A088AA581A9EA50900998FB7 /* Bond.xcdatamodeld in Sources */,
+				A0CC2C601ACF2B460025D031 /* swiftBleController.swift in Sources */,
 				A0B20C9B1A9EAEE900F484EB /* FirstViewController.swift in Sources */,
+				A0F9CEE21AD85E9C00799268 /* Util.swift in Sources */,
+				A0F9CEE41AD85ED600799268 /* ModelManager.swift in Sources */,
+				A0F9CEE01AD85E8F00799268 /* SwiftData.swift in Sources */,
 				A0B20C9C1A9EAEE900F484EB /* SecondViewController.swift in Sources */,
-				A088AA781A9EA52000998FB7 /* information.swift in Sources */,
 				A0B20C9D1A9EAEE900F484EB /* ThirdViewController.swift in Sources */,
 				A088AA551A9EA50900998FB7 /* AppDelegate.swift in Sources */,
 			);
@@ -376,9 +432,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Bond/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bond/Bond-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -386,9 +445,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Bond/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bond/Bond-Bridging-Header.h";
 			};
 			name = Release;
 		};
